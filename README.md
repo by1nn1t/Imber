@@ -3,7 +3,7 @@ Imber recursively scans files and directories in a given path. It searches for p
 
 ### Installation & Usage 
 ```bash
-git clone https://github.com/by1nn1t/Imber.git
+git clone https://github.com/by1nn1t/Imber
 
 chmod +x imber.sh
 
