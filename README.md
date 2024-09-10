@@ -18,7 +18,7 @@ file1.txt:
 Username: john_doe
 Password: StrongPass123!
 Email: john@example.com
-
+---------------------------
 file2.txt:
 
 Temporary login:
@@ -26,13 +26,13 @@ Username: admin
 Password: Admin!2024
 
 Security code: 8jrf*2028AB
-
+---------------------------
 file3.txt:
 
 Invalid passwords:
 abcd1234
 passWord
-
+---------------------------
 Generated cred.txt Output:
 
 StrongPass123!
