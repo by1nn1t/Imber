@@ -41,7 +41,7 @@ Admin!2024
 ```
 In this example, only the lines that match the pattern (having at least one uppercase letter, lowercase letter, digit, special character, and 8 or more characters) are included in cred.txt.
 
-### Copyright © 2023 just1nn1t
+### Copyright © 2024 1nn1t
 #### All rights reserved. This project is licensed under GitHub's default copyright laws, meaning that I retain all rights to my source code and no one may reproduce, distribute, or create derivative works from my work.
 
 #### The use of this script is the sole responsibility of the end user. The developers assume NO liability and are NOT responsible for any misuse or damage caused by this script.
