@@ -1,4 +1,5 @@
-patt="^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[^A-Za-z0-9]).{8,}$"
+# patt="^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[^A-Za-z0-9]).{8,}$"
+patt="[A-Za-z0-9[^A-Za-z0-9]]{8,}"
 
 scan() {
     local dir="$1"
@@ -6,7 +7,7 @@ scan() {
     
     # Find all files and scan them
     find "$dir" -type f | while read -r file; do
-        grep -P -E "$patt" "$file" >> "$opfile"
+        grep -E "$patt" "$file" >> "$opfile"
     done
 }
 
