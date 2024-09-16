@@ -6,7 +6,7 @@ scan() {
     
     # Find all files and scan them
     find "$dir" -type f | while read -r file; do
-        grep -E "$patt" "$file" >> "$opfile"
+        grep -P -E "$patt" "$file" >> "$opfile"
     done
 }
 
